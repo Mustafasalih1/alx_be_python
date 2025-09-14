@@ -1,4 +1,3 @@
 hours = 2 # representing the number of hours
-seconds = 3600
-result = hours * seconds
-print(result)
+seconds = hours * 3600
+print(seconds)
