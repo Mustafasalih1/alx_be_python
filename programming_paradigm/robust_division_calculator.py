@@ -1,0 +1,16 @@
+def safe_divide(numerator, denominator):
+    
+    try :
+        numerator = float(numerator)
+        denominator = float(denominator)
+        result = denominator / denominator
+        eturn f"The result of division is {result:.2f}"
+
+    except ValueError:
+        return "Error: Please enter numeric values only."
+
+     except ZeroDivisionError:
+        return "Error: Cannot divide by zero."
+    finally:
+        return "Wrong Entry...!"
+    
