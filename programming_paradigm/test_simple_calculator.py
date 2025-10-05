@@ -26,7 +26,7 @@ from simple_calculator import SimpleCalculator
         self.assertEqual(self.calc.multiply(-2, 3), -6)
         self.assertEqual(self.calc.multiply(0, 5), 0)
         self.assertEqual(self.calc.multiply(2.5, 1.2), 3.0)
-     def test_division_normal(self):
+     def test_division(self):
         """Test normal division results (returns float)."""
         self.assertEqual(self.calc.divide(10, 5), 2.0)
         self.assertEqual(self.calc.divide(7, 2), 3.5)
