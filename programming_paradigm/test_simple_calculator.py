@@ -15,11 +15,11 @@ from simple_calculator import SimpleCalculator
 
     def test_subtraction(self):
         """Test the subtraction method."""
-        self.assertEqual(self.calc.add(1, 1), 0)
-        self.assertEqual(self.calc.add(-2, -3), 1)
-        self.assertEqual(self.calc.add(2.5, 1.2, 1.3))
-        self.assertEqual(self.calc.add(0, 0, 0))
-        self.assertEqual(self.calc.add(-3, -5), 1)
+        self.assertEqual(self.calc.subtract(1, 1), 0)
+        self.assertEqual(self.calc.subtract(-2, -3), 1)
+        self.assertEqual(self.calc.subtract(2.5, 1.2, 1.3))
+        self.assertEqual(self.calc.subtract(0, 0, 0))
+        self.assertEqual(self.calc.subtract(-3, -5), 1)
     def test_multiplication(self):
         """Test multiplication with ints, negatives, zero and floats."""
         self.assertEqual(self.calc.multiply(3, 4), 12)
