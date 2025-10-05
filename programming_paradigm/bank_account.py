@@ -7,15 +7,15 @@ class BankAccount:
             raise ValueError("Deposit amount must be positive.") 
         self.account_balance += float(amount)
 
-def withdraw(self, amount):
-    if amount <= 0 :
-        raise ValueError("Insufficient funds.")
-    if amount <= self.account_balance:
+    def withdraw(self, amount):
+        if amount <= 0 :
+            raise ValueError("Insufficient funds.")
+        if amount <= self.account_balance:
         self.account_balance -= float(amount)
         return True
     return False
-def display_balance(self):
-     print(f" Current Balance: ${self.account_balance}")
+    def display_balance(self):
+         print(f" Current Balance: ${self.account_balance}")
 
 
     
