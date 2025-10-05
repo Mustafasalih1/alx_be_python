@@ -1,4 +1,4 @@
-class BankAccount(attributes, methods):
+class BankAccount:
     def __init__(self, initial_balance: float = 0) -> None:
     self.account_balance = float(initial_balance)
 
