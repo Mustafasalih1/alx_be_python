@@ -9,7 +9,7 @@ class Book:
 class EBook(Book):
     def __init__(self, title, author, file_size):
         super().__init__(title,author)
-        self.file_size.size = size
+        self.file_size = size
 
     def __str__(self):
         return f"{self.title} by {self.author} (EBook, {self.file_size} MB)"
